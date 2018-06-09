@@ -4,11 +4,10 @@
 
 <img src="https://raw.githubusercontent.com/typicode/json-server/master/src/server/public/images/json.png" align="right">
 
-* [**Create your database**](#create-your-database)
-* [Deploy to **Heroku**](#deploy-to-heroku)
-* [Deploy to **now**](#deploy-to-now)
-* [Deploy to **Azure**](#deploy-to-azure)
-
+- [**Create your database**](#create-your-database)
+- [Deploy to **Heroku**](#deploy-to-heroku)
+- [Deploy to **now**](#deploy-to-now)
+- [Deploy to **Azure**](#deploy-to-azure)
 
 ## Create your database
 
@@ -18,16 +17,17 @@
 git clone https://github.com/jesperorb/json-server-heroku.git
 ```
 
-2 . Change `db.json` to **your own content** according to the [`json-server example`](https://github.com/typicode/json-server#example) and then `commit` your changes to git. 
+2 . Change `db.json` to **your own content** according to the [`json-server example`](https://github.com/typicode/json-server#example) and then `commit` your changes to git.
 
 _this example will create `/posts` route , each resource will have `id`, `title` and `content`. `id` will auto increment!_
+
 ```json
 {
-  "posts":[
+  "posts": [
     {
-      "id" : 0,
+      "id": 0,
       "title": "First post!",
-      "content" : "My first content!"
+      "content": "My first content!"
     }
   ]
 }
@@ -43,13 +43,13 @@ Heroku is a free hosting service for hosting small projects. Easy setup and depl
 
 ###### Pros
 
-* Easy setup
-* Free
+- Easy setup
+- Free
 
 ###### Cons
 
-* App has to sleep a couple of hours every day.
-* "Powers down" after 30 mins of inactivity. Starts back up when you visit the site but it takes a few extra seconds. Can maybe be solved with [**Kaffeine**](http://kaffeine.herokuapp.com/)
+- App has to sleep a couple of hours every day.
+- "Powers down" after 30 mins of inactivity. Starts back up when you visit the site but it takes a few extra seconds. Can maybe be solved with [**Kaffeine**](http://kaffeine.herokuapp.com/)
 
 ---
 
@@ -62,26 +62,31 @@ Heroku is a free hosting service for hosting small projects. Easy setup and depl
 3 . Install the Heroku CLI on your computer: <br/>[https://devcenter.heroku.com/articles/heroku-cli](https://devcenter.heroku.com/articles/heroku-cli)
 
 4 . Connect the Heroku CLI to your account by writing the following command in your terminal and follow the instructions on the command line:
+
 ```bash
 heroku login
 ```
 
 5 . Then create a remote heroku project, kinda like creating a git repository on GitHub. This will create a project on Heroku with a random name. If you want to name your app you have to supply your own name like `heroku create project-name`:
+
 ```bash
 heroku create my-cool-project
 ```
 
-6 . Push your app to __Heroku__ (you will see a wall of code)
+6 . Push your app to **Heroku** (you will see a wall of code)
+
 ```bash
 git push heroku master
 ```
 
 7 . Visit your newly create app by opening it via heroku:
+
 ```bash
 heroku open
 ```
 
 8 . For debugging if something went wrong:
+
 ```bash
 heroku logs --tail
 ```
@@ -91,6 +96,7 @@ heroku logs --tail
 #### How it works
 
 Heroku will look for a startup-script, this is by default `npm start` so make sure you have that in your `package.json` (assuming your script is called `server.js`):
+
 ```json
  "scripts": {
     "start" : "node server.js"
@@ -98,6 +104,7 @@ Heroku will look for a startup-script, this is by default `npm start` so make su
 ```
 
 You also have to make changes to the port, you can't hardcode a dev-port. But you can reference herokus port. So the code will have the following:
+
 ```js
 const port = process.env.PORT || 4000;
 ```
@@ -109,22 +116,27 @@ const port = process.env.PORT || 4000;
 1 . [Create your database](#create-your-database)
 
 2 . Install now cli-tool globally
+
 ```bash
 npm install -g now
 ```
 
 3 . Run the `now` command in this folder/repo where your project is. If you run it for the first time, you will be prompted to login, after login, run the command again:
+
 ```
 now --public
 ```
+
 _`--public` is to skip the prompt telling you that you will open source your project if you deploy it to now_
 
 4 . The URL will be copied automatically and you can just paste it into your browser.
 
-5. **Optional**: Rename the deployment:
+5.  **Optional**: Rename the deployment:
+
 ```bash
 now alias https://your-deployed-name.now.sh new-name
 ```
+
 _first argument is the deployed site, second argument is the new name to give it_
 
 ---
@@ -147,11 +159,12 @@ https://docs.microsoft.com/en-us/cli/azure/install-azure-cli
 _This might cause some trouble, you will see. Remember to restart your terminal or maybe your computer if the commands after this does not work_
 
 3 . Login to the service via the command line and follow the instructions: </br>
+
 ```bash
 az login
 ```
-_You will be prompted to visit a website and paste a confirmation code_
 
+_You will be prompted to visit a website and paste a confirmation code_
 
 ## Create the project
 
@@ -170,6 +183,7 @@ az appservice plan create -n NameOfServicePlan -g NameOfResourceGroup
 ```
 
 4 . Create the actual app and supply the service plan and resource group
+
 ```bash
 az appservice web create -n NameOfApp -g NameOfResourceGroup --plan NameOfServicePlan
 ```
@@ -187,6 +201,7 @@ git remote add azure https://jesperorb@deploy-testing.scm.azurewebsites.net/depl
 ```
 
 7 . Now you should be able to push your app:
+
 ```bash
 git push azure master
 ```
