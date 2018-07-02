@@ -636,5 +636,307 @@
       "description": "Drainage of Accessory Pancreatic Duct, Open Approach",
       "price": 70656
     }
+  ],
+  "categories": [
+    {
+      "id": 34,
+      "category_slug": "Handphone & Tablet::Power Bank",
+      "category_id": 0,
+      "product_count": 0,
+      "source_id": 0,
+      "updated_at": "2018-06-28T05:18:07Z"
+    },
+    {
+      "id": 35,
+      "category_slug": "Handphone & Tablet::Aksesoris Handphone::Baterai",
+      "category_id": 0,
+      "product_count": 0,
+      "source_id": 0,
+      "updated_at": "2018-06-28T05:18:02Z"
+    },
+    {
+      "id": 36,
+      "category_slug":
+        "Handphone & Tablet::Aksesoris Handphone::Aksesoris Handphone Lainnya",
+      "category_id": 0,
+      "product_count": 0,
+      "source_id": 0,
+      "updated_at": "2018-06-28T05:17:56Z"
+    },
+    {
+      "id": 10,
+      "category_slug": "Fashion Anak::Aksesoris Anak::Jam Tangan Anak",
+      "category_id": 0,
+      "product_count": 0,
+      "source_id": 0,
+      "updated_at": "2018-06-25T10:10:08Z"
+    },
+    {
+      "id": 25,
+      "category_slug": "Fashion::Fashion Wanita::Sepatu::Sneakers",
+      "category_id": 0,
+      "product_count": 0,
+      "source_id": 0,
+      "updated_at": "2018-06-25T10:04:46Z"
+    },
+    {
+      "id": 24,
+      "category_slug": "Tas & Travel::Tas Unisex::Tas Ransel Unisex",
+      "category_id": 0,
+      "product_count": 0,
+      "source_id": 0,
+      "updated_at": "2018-06-25T10:04:40Z"
+    },
+    {
+      "id": 27,
+      "category_slug":
+        "Mainan Anak::Action Figure & Mainan Koleksi::Mainan Koleksi",
+      "category_id": 215,
+      "product_count": 0,
+      "source_id": 0,
+      "updated_at": "2018-06-25T04:55:50Z"
+    },
+    {
+      "id": 26,
+      "category_slug":
+        "Olahraga & Outdoor::Sepatu & Pakaian Olahraga::Sepatu & Pakaian Olahraga Pria::Sepatu Olahraga::Sepatu Lari Pria",
+      "category_id": 160,
+      "product_count": 0,
+      "source_id": 0,
+      "updated_at": "2018-06-25T04:55:50Z"
+    },
+    {
+      "id": 28,
+      "category_slug":
+        "Fashion::Fashion Anak Unisex::Sepatu Anak Unisex::Sneakers Anak Unisex",
+      "category_id": 178,
+      "product_count": 0,
+      "source_id": 0,
+      "updated_at": "2018-06-25T04:55:50Z"
+    },
+    {
+      "id": 30,
+      "category_slug":
+        "Olahraga & Outdoor::Sepatu & Pakaian Olahraga::Sepatu & Pakaian Olahraga Wanita::Sepatu Olahraga::Sepatu Lari Wanita",
+      "category_id": 143,
+      "product_count": 0,
+      "source_id": 0,
+      "updated_at": "2018-06-25T04:55:50Z"
+    },
+    {
+      "id": 31,
+      "category_slug":
+        "Fashion::Fashion Anak Laki-laki::Sepatu Anak Laki-laki::Sepatu Sneaker Anak Laki-laki",
+      "category_id": 178,
+      "product_count": 0,
+      "source_id": 0,
+      "updated_at": "2018-06-25T04:55:50Z"
+    },
+    {
+      "id": 32,
+      "category_slug":
+        "Fashion::Fashion Wanita::Sepatu::Sandal & Flip Flop Wanita::Sandal Selop Wanita",
+      "category_id": 143,
+      "product_count": 0,
+      "source_id": 0,
+      "updated_at": "2018-06-25T04:55:50Z"
+    },
+    {
+      "id": 33,
+      "category_slug":
+        "Fashion::Fashion Unisex::Sepatu Unisex::Sneakers Unisex",
+      "category_id": 143,
+      "product_count": 0,
+      "source_id": 0,
+      "updated_at": "2018-06-25T04:55:49Z"
+    },
+    {
+      "id": 29,
+      "category_slug": "Fashion::Fashion Pria::Aksesoris::Topi Pria",
+      "category_id": 163,
+      "product_count": 0,
+      "source_id": 0,
+      "updated_at": "2018-06-25T04:55:49Z"
+    },
+    {
+      "id": 22,
+      "category_slug": "Komputer & Laptop::Komputer::PC Gaming",
+      "category_id": 60,
+      "product_count": 0,
+      "source_id": 0,
+      "updated_at": "2018-06-25T04:12:45Z"
+    },
+    {
+      "id": 23,
+      "category_slug": "Komputer & Laptop::Komponen Komputer::Kartu Grafis",
+      "category_id": 71,
+      "product_count": 0,
+      "source_id": 0,
+      "updated_at": "2018-06-25T04:12:45Z"
+    },
+    {
+      "id": 21,
+      "category_slug": "Komputer & Laptop::Komputer::Komputer Rakitan",
+      "category_id": 60,
+      "product_count": 0,
+      "source_id": 0,
+      "updated_at": "2018-06-25T03:50:38Z"
+    },
+    {
+      "id": 20,
+      "category_slug": "Komputer & Laptop::Komputer::Komputer Rakitan",
+      "category_id": 60,
+      "product_count": 0,
+      "source_id": 0,
+      "updated_at": "2018-06-25T03:49:44Z"
+    },
+    {
+      "id": 6,
+      "category_slug": "Fashion Pria::Jam Tangan::Jam Tangan Analog",
+      "category_id": 161,
+      "product_count": 0,
+      "source_id": 0,
+      "updated_at": "2018-06-22T08:48:33Z"
+    },
+    {
+      "id": 5,
+      "category_slug": "Handphone & Tablet::Smartwatch",
+      "category_id": 161,
+      "product_count": 0,
+      "source_id": 0,
+      "updated_at": "2018-06-22T08:48:33Z"
+    },
+    {
+      "id": 4,
+      "category_slug": "Fashion Wanita::Jam Tangan::Jam Tangan Analog",
+      "category_id": 144,
+      "product_count": 0,
+      "source_id": 0,
+      "updated_at": "2018-06-22T08:48:33Z"
+    },
+    {
+      "id": 3,
+      "category_slug": "Fashion Wanita::Jam Tangan::Jam Tangan Analog",
+      "category_id": 144,
+      "product_count": 0,
+      "source_id": 0,
+      "updated_at": "2018-06-22T08:48:33Z"
+    },
+    {
+      "id": 9,
+      "category_slug": "Fashion Pria::Jam Tangan::Jam Tangan Digital",
+      "category_id": 161,
+      "product_count": 0,
+      "source_id": 0,
+      "updated_at": "2018-06-22T08:41:12Z"
+    },
+    {
+      "id": 8,
+      "category_slug": "Fashion Pria::Jam Tangan::Jam Tangan LED",
+      "category_id": 161,
+      "product_count": 0,
+      "source_id": 0,
+      "updated_at": "2018-06-22T08:30:32Z"
+    },
+    {
+      "id": 15,
+      "category_slug":
+        "Handphone & Tablet::Aksesoris Handphone::Casing & Cover",
+      "category_id": 10,
+      "product_count": 0,
+      "source_id": 0,
+      "updated_at": "2018-06-22T08:28:20Z"
+    },
+    {
+      "id": 17,
+      "category_slug": "Fashion::Fashion Pria::Sepatu::Sepatu Formal",
+      "category_id": 160,
+      "product_count": 0,
+      "source_id": 0,
+      "updated_at": "2018-06-22T06:53:20Z"
+    },
+    {
+      "id": 19,
+      "category_slug": "Tas & Travel::Tas Pria::Tas Selempang Pria",
+      "category_id": 124,
+      "product_count": 0,
+      "source_id": 0,
+      "updated_at": "2018-06-21T08:44:28Z"
+    },
+    {
+      "id": 2,
+      "category_slug": "Handphone & Tablet::Handphone",
+      "category_id": 13,
+      "product_count": 0,
+      "source_id": 0,
+      "updated_at": "2018-06-08T06:26:25Z"
+    },
+    {
+      "id": 18,
+      "category_slug":
+        "Fashion::Fashion Pria::Sepatu::Flip Flop & Sandal Pria::Sandal Pria",
+      "category_id": 159,
+      "product_count": 0,
+      "source_id": 0,
+      "updated_at": "2018-06-07T11:06:19Z"
+    },
+    {
+      "id": 16,
+      "category_slug":
+        "Olahraga & Outdoor::Sepatu & Pakaian Olahraga::Sepatu & Pakaian Olahraga Pria::Pakaian Olahraga::Jersey Olahraga::Jersey Sepak Bola",
+      "category_id": 149,
+      "product_count": 0,
+      "source_id": 0,
+      "updated_at": "2018-06-07T10:44:06Z"
+    },
+    {
+      "id": 7,
+      "category_slug": "Fashion Pria::Jam Tangan::Jam Tangan LED",
+      "category_id": 161,
+      "product_count": 0,
+      "source_id": 0,
+      "updated_at": "2018-06-06T08:23:49Z"
+    },
+    {
+      "id": 14,
+      "category_slug":
+        "Komputer & Aksesoris::Audio Computer::Speaker Multimedia",
+      "category_id": 79,
+      "product_count": 0,
+      "source_id": 0,
+      "updated_at": "2018-06-05T07:03:30Z"
+    },
+    {
+      "id": 13,
+      "category_slug": "Buku & Alat Tulis::Buku Bacaan ::Lain-lain",
+      "category_id": 183,
+      "product_count": 0,
+      "source_id": 0,
+      "updated_at": "2018-06-05T05:57:39Z"
+    },
+    {
+      "id": 12,
+      "category_slug": "Laptop & Aksesoris::Laptop",
+      "category_id": 41,
+      "product_count": 0,
+      "source_id": 0,
+      "updated_at": "2018-05-28T07:37:15Z"
+    },
+    {
+      "id": 11,
+      "category_slug": "Fashion Pria::Jam Tangan::Strap Jam Tangan",
+      "category_id": 161,
+      "product_count": 0,
+      "source_id": 0,
+      "updated_at": "2018-05-28T07:32:47Z"
+    },
+    {
+      "id": 1,
+      "category_slug": "Rumah Tangga::Dekorasi::Jam Meja",
+      "category_id": 206,
+      "product_count": 0,
+      "source_id": 0,
+      "updated_at": "2018-05-24T11:29:33Z"
+    }
   ]
 }
